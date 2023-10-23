@@ -12,7 +12,7 @@ int waitingCount = 0;
 int sessionCount = 0;
 
 int main(int argc, char *argv[]) {
-    int serverPort = 8888;
+    int serverPort = 80;
     if (argc > 1) {
         serverPort = atoi(argv[1]); 
     }
